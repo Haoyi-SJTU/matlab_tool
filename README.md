@@ -66,6 +66,12 @@
 
 计算12节绳驱超冗余机器人的Jacobian矩阵，代码里把DH矩阵推导、雅克比矩阵推导封装成函数，并包含一个调用这些函数的例子
 
+## test_relasense
 
+通过MATLAB启动realsense相机（T2565相机），取出RGB图像和深度图。
+
+## test_t265
+
+读取在ROS环境中录制的realsense数据（T265相机）：解包，提取RGB图像、深度图、IMU，存储。用于录制数据包的是官方的realsense的ROS节点。
 
 
