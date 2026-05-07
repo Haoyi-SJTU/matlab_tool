@@ -80,4 +80,12 @@
 
 读取在ROS环境中录制的realsense数据（T265相机）：解包，提取RGB图像、深度图、IMU，存储。用于录制数据包的是官方的realsense的ROS节点。
 
+## plotInteractiveData
+
+绘制有交互功能的plot图像和图例。用户可以自行勾选显示的图线，便于在数据复杂、图线重叠的情况下观察单个图线。
+ - 函数调用例子：`example_show_plotInteractiveData.m`
+ - 交互界面展示：
+![](figure/1.png)
+![](figure/2.png)
+![](figure/3.png)
 
