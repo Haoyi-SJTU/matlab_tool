@@ -8,8 +8,9 @@
 ## MailMe
 向指定邮箱发送指定内容和标题的邮件。方便监测程序运行的结果
 输入：
-   mailtitle 邮件题目 
-   mailcontent 邮件内容
+
+   - mailtitle 邮件题目 
+   - mailcontent 邮件内容
 
 
 ## matrixplot
